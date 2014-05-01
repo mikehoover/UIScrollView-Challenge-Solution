@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MHViewController : UIViewController
+@interface MHViewController : UIViewController <UIScrollViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) UIImageView *globalImageView;
 
 @end
